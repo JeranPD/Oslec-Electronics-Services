@@ -218,7 +218,7 @@ const showStats = async (req, res) => {
     { $sort: { "_id.year": -1, "_id.month": -1 } },
     { $limit: 12 },
   ]);
-  console.log(monthlyIncome);
+  
 
   monthlyIncome = monthlyIncome.filter((completeItem) => {
     const {
