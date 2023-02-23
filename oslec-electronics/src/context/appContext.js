@@ -73,7 +73,7 @@ const initialState = {
   description: "",
   estimate: "",
   statusOptions: ["pending", "ongoing", "completed"],
-  statusContainerOptions: ["pending", "ongoing"],
+  statusContainerOptions: ["pending", "ongoing", "completed"],
   status: "pending",
   address: "",
   price: 0,
