@@ -13,7 +13,7 @@ const SearchContainer = () => {
     sortOptions,
     handleChange,
     clearFilters,
-    statusContainerOptions
+    statusOptions
   } = useAppContext();
 
   const handleSearch = (e) => {
@@ -53,7 +53,7 @@ const SearchContainer = () => {
             name="searchStatus"
             value={searchStatus}
             handleChange={handleSearch}
-            list={["all", ...statusContainerOptions]}
+            list={["all", ...statusOptions]}
           />
           <FormRowSelect
             name="sort"
